@@ -24,3 +24,7 @@ Abre http://127.0.0.1:8000
 
 Ejemplos: «cuota de $10 millones al 12% a 36 meses», «quiero ahorrar $5.000.000 en 2 años al 4%»,
 «interés compuesto de $1.000.000 al 6% por 10 años», «qué es el CAE».
+
+## Despliegue
+
+URL pública (Cloud Run, southamerica-west1): https://finbot-116705909722.southamerica-west1.run.app
