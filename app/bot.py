@@ -102,7 +102,7 @@ def _compuesto(d: dict) -> str | None:
 def _intencion(t: str) -> str | None:
     if re.search(r"inter[eé]s compuesto|invertir|inversi[oó]n|rentabilidad", t):
         return "compuesto"
-    if re.search(r"ahorr|meta\b", t):
+    if re.search(r"ahorr|junt[aoe]|meta\b", t):
         return "ahorro"
     if re.search(r"cuota|cr[eé]dito|pr[eé]stamo|dividendo", t):
         return "credito"
